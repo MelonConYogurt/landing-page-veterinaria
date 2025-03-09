@@ -73,7 +73,7 @@ export default function Inicio() {
             </a>
           </nav>
           <Button
-            className="hidden md:inline-flex bg-[#fff05f]"
+            className="hidden md:inline-flex  bg-[#fff05f] border-none hover:bg-[#ffe82b"
             variant={"outline"}
           >
             <a href="#citas">Agendar Cita</a>
@@ -165,7 +165,7 @@ export default function Inicio() {
                   <Button
                     size="lg"
                     variant={"outline"}
-                    className="bg-[#fff05f]"
+                    className=" bg-[#fff05f] border-none hover:bg-[#ffe82b"
                   >
                     <a href="#citas">Agendar Cita</a>
                   </Button>
@@ -513,7 +513,11 @@ export default function Inicio() {
                         placeholder="Describe brevemente el motivo de tu visita"
                       />
                     </div>
-                    <Button type="submit" className="w-full">
+                    <Button
+                      type="submit"
+                      variant={"outline"}
+                      className="w-full  bg-[#fff05f] border-none hover:bg-[#ffe82b"
+                    >
                       Enviar solicitud
                     </Button>
                   </form>
@@ -532,14 +536,6 @@ export default function Inicio() {
               reservados.
             </p>
           </div>
-          <nav className="flex gap-4 sm:gap-6">
-            <a href="#" className="text-xs hover:underline underline-offset-4">
-              Términos de servicio
-            </a>
-            <a href="#" className="text-xs hover:underline underline-offset-4">
-              Política de privacidad
-            </a>
-          </nav>
         </div>
       </footer>
     </div>
