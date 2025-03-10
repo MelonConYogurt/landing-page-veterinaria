@@ -15,6 +15,7 @@ import {
   Twitter,
   Star,
   X,
+  Dog,
 } from "lucide-react";
 
 import {
@@ -37,7 +38,7 @@ export default function Inicio() {
       <header className="sticky top-0 px-5 z-40 w-full border-b bg-background">
         <div className="flex w-full h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <PawPrint className="h-6 w-6 text-primary" />
+            <Dog className="h-6 w-6 text-primary" />
             <span className="text-xl font-bold">Veterinaria</span>
           </div>
           <nav className="hidden md:flex gap-6">
